@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* متخليش البادين والبوردر يأثروا بالويدث تاع العنصر*/
+}
+
+body {
+    height: 5000px;
+    font-family: 'PT Sans', sans-serif;
+    background-color:antiquewhite;
+}
+:root {
+    --mainColor: #7b5244;
+    --subColor: #333;
+}
+
+a {
+    text-decoration: none;
+}
+.container {
+    width: 80%;
+    margin: auto; /* عشان يوسطن الحاجة بالنص*/
+}
+.list-unstyled {
+    list-style: none;
+}
+img{
+    border-radius: 50%;
+    width: 311px;
+    height: 329px;
+    margin-top: 40px;
+    margin-left: -40px;
+    
+}
+.abov {
+    display: flex;
+}
+.abov .myself {
+    margin-top: 40px;
+    margin: auto;
+    flex: 1;
+}
+.abov .myself h2 {
+    margin-bottom: 30px;
+    margin-left: 95px;
+    color: #7b5244;
+    font-weight: bold;
+    
+}
+.abov .myself p {
+    margin-left: 95px;
+    color: gray;
+    line-height: 1.8;
+}
+ /****************************/
+
+ .about {
+    margin-top: 119px;
+    display: flex;
+ }
+ .education {
+    color: #7b5244;
+    flex:1;
+ }
+
+.education h2{
+    margin-bottom: 32px;
+}
+.education h3{
+    margin-bottom: 10px;
+}
+.ed{
+    color: gray;
+    line-height: 1.8;
+}
+.course{
+    color: #7b5244;
+}
+.course h2 {
+    margin-bottom: 32px;
+}
+.co {
+    color: gray;
+    line-height: 1.8;
+}
+/***************/
+.contact {
+    flex: 1;
+}
+.contact h2 {
+    color: #7b5244;
+    margin-bottom: 32px;
+}
+.contact .con {
+    color: gray;
+    line-height: 1.8;
+}
+ /**********/
+
+ .sec {
+    margin-top: 50px;
+    display: flex;
+ }
+ .inst {
+    flex: 1;
+    margin-left: 128px;
+ }
+ .inst h2{
+    color: #7b5244;
+    margin-bottom: 32px;
+ }
+ .inst p{
+    color: gray;
+    line-height: 1.8;
+ }
